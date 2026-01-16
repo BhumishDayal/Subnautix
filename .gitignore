@@ -1,0 +1,54 @@
+# =========================
+# C++ / CMake build outputs
+# =========================
+**/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.vcxproj*
+*.sln
+*.user
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+
+# =========================
+# Logs & generated outputs
+# =========================
+logs/
+plots/
+*.csv
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# =========================
+# Rust
+# =========================
+rust_analyzer/target/
+**/target/
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VS Code settings (optional)
+# Keep this if you want it personal
+# =========================
+.vscode/
