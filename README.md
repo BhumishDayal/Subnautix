@@ -1,14 +1,10 @@
-# AUV Mission Simulator (C++ + Rust + Python)
+# Subnautix - AUV Mission Simulator (C++ + Rust + Python)
 
 A lightweight Autonomous Underwater Vehicle (AUV) mission simulator demonstrating:
 - A **finite-state mission planner**: **DIVE → HOLD → SURFACE**
 - A **PID depth-hold controller** running at **50Hz**
 - **Failsafe emergency surfacing** on unsafe depth or low battery
 - Telemetry logging → offline analysis + visualization
-
-This project is designed to be **junior-friendly** but still **engineering-grade** for robotics/autonomy internships.
-
----
 
 ## Project Architecture
 
@@ -36,29 +32,6 @@ This project is designed to be **junior-friendly** but still **engineering-grade
 - Mission transition markers
 
 ---
-
-## Folder Structure
-AUV/
-cpp_sim/
-main.cpp
-CMakeLists.txt
-rust_analyzer/
-src/main.rs
-Cargo.toml
-python_plot/
-plot.py
-logs/
-auv_log.csv (generated)
-.vscode/
-tasks.json
-
----
-
-## Autonomy Report Output
-
-This report is auto-generated after each run:
-
-![AUV Report](plots/report.png)
 
 ## How To Run (One Command)
 
